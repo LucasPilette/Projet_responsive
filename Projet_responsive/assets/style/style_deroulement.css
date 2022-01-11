@@ -103,7 +103,7 @@ li {
 
 #bloc2 {
     background: #EEA383;
-    padding: 2.5em 1em 2.5em 1em;
+    padding: 2.5em 1em 1.5em 1em;
 }
 
 a {
@@ -113,6 +113,21 @@ a {
 a:hover {
     all: unset;
 }
+
+#footer{
+    height: auto;
+    background: white;
+    max-height: 5em;
+}
+
+.logo2{
+    height: 2em;
+}
+
+.footer_text{
+    font-size: 0.6em;
+}
+
 
 @media screen and (orientation:portrait) and (max-width:1200px){
     #bloc1{
@@ -178,6 +193,13 @@ a:hover {
     .title_side{
         font-size: 0.8em;
     }
+    .logo2{
+        height: 2.5em;
+    }
+    
+    .footer_text{
+        font-size: 0.7em;
+    }
 }
 
 @media screen and (min-width:768px){
@@ -193,6 +215,13 @@ a:hover {
     .title_side{
         font-size: 0.9em;
     }
+    .logo2{
+        height: 3em;
+    }
+    
+    .footer_text{
+        font-size: 0.8em;
+    }
 }
 
 @media screen and (min-width:992px){
@@ -204,6 +233,13 @@ a:hover {
     }
     .title_side{
         font-size: 1.0em;
+    }
+    .logo2{
+        height: 3.5em;
+    }
+    
+    .footer_text{
+        font-size: 0.8em;
     }
 }
 
@@ -217,6 +253,13 @@ a:hover {
     .title_side{
         font-size: 1.1em;
     }
+    .logo2{
+        height: 4em;
+    }
+    
+    .footer_text{
+        font-size: 0.8em;
+    }
 }
 
 @media screen and (min-width:1400px){
@@ -228,5 +271,12 @@ a:hover {
     }
     .title_side{
         font-size: 1.2em;
+    }    
+    .logo2{
+        height: 4em;
+    }
+    
+    .footer_text{
+        font-size: 0.8em;
     }
 }
