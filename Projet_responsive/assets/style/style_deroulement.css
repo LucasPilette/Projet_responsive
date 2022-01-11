@@ -94,11 +94,16 @@ li {
 
 #bloc1 {
     padding-right: 0;
+    background-image: url("/assets/img/pexels-cottonbro-6153345.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:50%;
+    min-height: 500px;
 }
 
 #bloc2 {
     background: #EEA383;
-
+    padding: 2.5em 1em 2.5em 1em;
 }
 
 a {
@@ -109,6 +114,30 @@ a:hover {
     all: unset;
 }
 
+@media screen and (orientation:portrait) and (max-width:1200px){
+    #bloc1{
+        display: none;
+    }
+
+    .oui{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:768px) and (orientation:landscape){
+    .text_plan{
+        font-size: 0.6em;
+    }
+    .navbar{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width:576px) and (orientation:portrait){
+    #bloc2{
+        margin-top: 85px;
+    }
+}
 
 @media screen and (max-width:768px) {
     .main {
@@ -132,9 +161,6 @@ a:hover {
 
     ul {
         margin-bottom: 0;
-    }
-    #bloc1{
-        margin-top: 85px;
     }
 }
 
