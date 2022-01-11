@@ -10,7 +10,6 @@
 body {
     background: #000;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    overflow-y: hidden;
 }
 
 .side {
@@ -152,6 +151,9 @@ a:hover {
 @media screen and (max-width:576px) and (orientation:portrait){
     #bloc2{
         margin-top: 85px;
+    }
+    #footer{
+        border-radius: 0 0 10px 10px;
     }
 }
 
