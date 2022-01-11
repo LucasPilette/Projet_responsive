@@ -1,0 +1,14 @@
+* {
+    font-family: 'Noto Sans Georgian', sans-serif;
+}
+.bg-rose {
+    background-color: #EEA383!important;
+}
+.bg-plan {
+    position:relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-image: url(../img/covid.png);
+}
