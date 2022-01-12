@@ -39,22 +39,7 @@ body {
 }
 
 
-.btn {
-    margin-right: 0.2vw;
-    background: #F78A5A;
-    color: black;
-    border-radius: 20px;
-    padding: 3px 20px 3px 20px;
-    transition: 0.2s;
-}
 
-
-.btn:hover {
-    background: black;
-    color: #F78A5A;
-    border: 1px solid #F78A5A;
-    transform: scale(1.05);
-}
 
 
 .btn_mobile {
@@ -107,11 +92,15 @@ li {
 }
 
 a {
-    all: unset;
+    color: #F78A5A;
+    font-size: 1.2em;
+    transition: 0.1s;
+    text-decoration: none;
 }
 
-a:hover {
-    all: unset;
+a:hover{
+    color: #F78A5A;
+    font-size: 1.2em;
 }
 
 #footer{
@@ -204,9 +193,22 @@ a:hover {
     .footer_text{
         font-size: 0.7em;
     }
-    .col-sm-6 {
-        flex: 0 0 auto;
-        width: 100%;
+    
+    a {
+        font-weight: lighter;
+        color: black;
+        background-color: #F78A5A;
+        padding: 8px 25px 8px 25px;
+        border-radius: 23px;
+        margin-right: 0vw;
+        font-size: 1.2em;
+    }
+    
+    a:hover {
+        background-color: black;
+        color: #F78A5A;
+        border: 1px solid #F78A5A;
+        
     }
 }
 

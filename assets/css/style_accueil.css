@@ -97,12 +97,18 @@ li {
 
 
 a {
-    all: unset;
+    text-decoration: none;
+    color: #F78A5A;
+    font-size: 1.2em;
+    transition: 0.1s;
 }
 
-a:hover {
-    all: unset;
+a:hover{
+    text-decoration: none;
+    color: #F78A5A;
+    font-size: 1.2em;
 }
+
 
 @media screen and (max-width:768px) {
     .main {
@@ -160,6 +166,23 @@ a:hover {
 
     .title_side {
         font-size: 0.8em;
+    }
+    a {
+        
+        font-weight: lighter;
+        color: black;
+        background-color: #F78A5A;
+        padding: 8px 25px 8px 25px;
+        border-radius: 23px;
+        margin-right: 0vw;
+        font-size: 1.2em;
+    }
+    
+    a:hover {
+        background-color: black;
+        color: #F78A5A;
+        border: 1px solid #F78A5A;
+        
     }
 }
 

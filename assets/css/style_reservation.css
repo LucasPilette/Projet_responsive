@@ -4,13 +4,12 @@
 }
 
 :root{
-    font-size: 22px;
+    font-size: 25px;
 }
 
 body {
     background: #000;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
 }
 
 .side {
@@ -108,13 +107,16 @@ li {
 }
 
 a {
-    all: unset;
+    color: #F78A5A;
+    font-size: 1.2em;
+    transition: 0.1s;
+    text-decoration: none;
 }
 
-a:hover {
-    all: unset;
+a:hover{
+    color: #F78A5A;
+    font-size: 1.2em;
 }
-
 #footer{
     height: auto;
     background: white;
@@ -160,7 +162,7 @@ a:hover {
 
 @media screen and (max-width:768px) {
     .main {
-        text-align: center;
+        text-align: left;
     }
 
     li {
@@ -211,6 +213,23 @@ a:hover {
     .col-sm-6 {
         flex: 0 0 auto;
         width: 100%;
+    }
+
+    a {
+        font-weight: lighter;
+        color: black;
+        background-color: #F78A5A;
+        padding: 8px 25px 8px 25px;
+        border-radius: 23px;
+        margin-right: 0vw;
+        font-size: 1.2em;
+    }
+    
+    a:hover {
+        background-color: black;
+        color: #F78A5A;
+        border: 1px solid #F78A5A;
+        
     }
 }
 
