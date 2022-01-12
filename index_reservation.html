@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style_reservation.css">
     <title>Deroulement</title>
 </head>
@@ -84,14 +85,114 @@
                 </div>
                 <div class="container-fluid">
                     <div class="row oui">
-                        <div class="col-12 col-sm-6" id="bloc1">
+                        <div class="col-12 col-sm-6 px-0" id="bloc1">
                             
                         </div>
-                        <div class="col-12 col-sm-6" id="bloc2">
-                            <p class="text_plan">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae deleniti minus modi
-                                distinctio esse illo similique cupiditate! Ipsa, voluptatum. Incidunt aspernatur sunt
-                                praesentium, dolorum laboriosam debitis qui repellendus animi pariatur. lorem</p>
+                        <div class="col-12 col-xl-6" id="bloc2">
+                            <div class="container_contact">
+                                <div class="row">   
+                                    <div class="col-md-3 w-50">
+                                        <div class="contact-info text-center center-block">
+                                            <h1>Reservez</h1>
+                                            <p>Tél : 08 58 67 55 04</p>
+                                            <p>amiens@amiens-metropole.com</p>
+                                                <div class="container">
+                                                <hr>
+                                                    <div class="text-center">
+                                                        <p class="txt-railway">Suivez-nous</p></div>
+                                                        <div class="container-fluid" id="cont">
+                                                            <div class="row">
+                                                                <div class="col-sm-12">
+                                                                    <div class="social-icons">
+                                                                        <i class='fab fa-facebook-square'></i>
+                                                                        <i class='fab fa-twitter'></i>
+                                                                        <i class='fab fa-instagram'></i>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        <!--CONTACT FORMULAIRE--> 
+                                <div class="col-md-3 w-50">
+                                        <div class="contact-form">
+                                            <label class="control-label" for="radios">Vous êtes ?</label>
+                                        <div class="col-md-6"> 
+                                            <label class="radio-inline" for="radios-0">
+                                            <input name="exposant/visiteur" id="radios-0" value="EXPOSANT" checked="checked" type="radio">
+                                            Exposant
+                                            </label> 
+                                            <label class="radio-inline" for="radios-1">
+                                            <input name="exposant/visiteur" id="radios-1" value="VISITEUR" type="radio">
+                                            Visiteur
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                                <label class="control-label col-sm-2" for="fname">Nom:</label>
+                                            <div class="col-sm-10">          
+                                                <input type="text" class="form-control" id="fname" placeholder="Entrer votre nom" name="fname">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-2" for="lname">Prénom:</label>
+                                            <div class="col-sm-10">          
+                                                <input type="text" class="form-control" id="lname" placeholder="Entrer votre prénom" name="lname">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-2" for="lname">Adresse:</label>
+                                            <div class="col-sm-10">          
+                                                <input type="text" class="form-control" id="lname" placeholder="Entrer votre numéro" name="lname">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-2" for="email">Email:</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" id="email" placeholder="Votre Adresse Mail" name="email">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label" for="radios">Type de carte bancaire:</label>
+                                            <div class="col-md-6"> 
+                                                <label class="radio-inline" for="radios-0">
+                                                <input name="card" id="radios-0" value="VISA" checked="checked" type="radio">
+                                                Visa 
+                                                </label> 
+                                                <label class="radio-inline" for="radios-1">
+                                                <input name="card" id="radios-1" value="MASTERCARD" type="radio">
+                                                Mastercard
+                                                </label>
+                                            </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-2" for="email">Carte:</label>
+                                            <div class="col-sm-10">
+                                                <input type="card" class="form-control" id="email" placeholder="Numéro de votre carte" name="card">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-2" for="email">CVV:</label>
+                                            <div class="col-sm-10">
+                                                <input type="card" class="form-control" id="card" placeholder="Numéro CVV (Dos de votre carte)" name="card">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-2" for="email">Titulaire:</label>
+                                            <div class="col-sm-10">
+                                                <input type="card" class="form-control" id="email" placeholder="Nom du titulaire de la carte" name="card">
+                                            </div>
+                                        </div>          
+                                        <div class="form-group">        
+                                            <div class="col-sm-offset-2 col-sm-10 p-3">
+                                                <button type="submit" class="btn btn-default">Réserver !</button>
+                                            </div>
+                                        </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
                     </div>
                     <div class="row">
                         <div class="col-12 d-flex flex-direction-row justify-content-end align-items-center" id="footer">

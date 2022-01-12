@@ -4,7 +4,7 @@
 }
 
 :root{
-    font-size: 25px;
+    font-size: 22px;
 }
 
 body {
@@ -101,9 +101,8 @@ li {
 }
 
 #bloc2 {
-    padding: 2.5em 1em 2.5em 1em;
     background: #EEA383;
-
+    padding: 2.5em 1em 1.5em 1em;
 }
 
 a {
@@ -114,7 +113,48 @@ a:hover {
     all: unset;
 }
 
+#footer{
+    height: auto;
+    background: white;
+    max-height: 5em;
+}
 
+.logo2{
+    height: 2em;
+}
+
+.footer_text{
+    font-size: 0.6em;
+}
+
+
+@media screen and (orientation:portrait) and (max-width:1200px){
+    #bloc1{
+        display: none;
+    }
+
+    .oui{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:768px) and (orientation:landscape){
+    .text_plan{
+        font-size: 0.6em;
+    }
+    .navbar{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width:576px) and (orientation:portrait){
+    #bloc2{
+        margin-top: 85px;
+    }
+    #footer{
+        border-radius: 0 0 10px 10px;
+    }
+}
 
 @media screen and (max-width:768px) {
     .main {
@@ -141,22 +181,6 @@ a:hover {
     }
 }
 
-#footer{
-    height: auto;
-    background: white;
-    max-height: 5em;
-}
-
-.logo2{
-    height: 2em;
-}
-
-.footer_text{
-    font-size: 0.6em;
-}
-
-
-
 @media screen and (min-width:576px){
     .btn{
         font-size: 0.6em;
@@ -173,27 +197,16 @@ a:hover {
     .logo2{
         height: 2.5em;
     }
-    
+    p{
+        font-size: 0.7em;
+    }
+
     .footer_text{
         font-size: 0.7em;
     }
-}
-
-@media screen and (max-width:768px) and (orientation:landscape){
-    .text_plan{
-        font-size: 0.6em;
-    }
-    .navbar{
-        margin-bottom: 0;
-    }
-}
-
-@media screen and (max-width:576px) and (orientation:portrait){
-    #bloc2{
-        margin-top: 85px;
-    }
-    #footer{
-        border-radius: 0 0 10px 10px;
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 100%;
     }
 }
 
@@ -210,12 +223,20 @@ a:hover {
     .title_side{
         font-size: 0.9em;
     }
+    p{
+        font-size: 0.7em;
+    }
+
     .logo2{
         height: 3em;
     }
     
     .footer_text{
         font-size: 0.8em;
+    }
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 100%;
     }
 }
 
@@ -228,6 +249,9 @@ a:hover {
     }
     .title_side{
         font-size: 1.0em;
+    }
+    p{
+        font-size: 0.8em;
     }
     .logo2{
         height: 3.5em;
@@ -248,12 +272,20 @@ a:hover {
     .title_side{
         font-size: 1.1em;
     }
+    p{
+        font-size: 0.9em;
+    }
     .logo2{
         height: 4em;
     }
     
     .footer_text{
         font-size: 0.8em;
+    }
+
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 50%;
     }
 }
 
@@ -264,9 +296,12 @@ a:hover {
     .text_side{
         font-size: 1em;
     }
+    p{
+        font-size: 1em;
+    }
     .title_side{
         font-size: 1.2em;
-    }
+    }    
     .logo2{
         height: 4em;
     }

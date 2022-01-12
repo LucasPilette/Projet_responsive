@@ -4,7 +4,7 @@
 }
 
 :root{
-    font-size: 25px;
+    font-size: 22px;
 }
 
 body {
@@ -94,7 +94,7 @@ li {
 
 #bloc1 {
     padding-right: 0;
-    background-image: url("/assets/img/infoscov.png");
+    background-image: url("../img/infoscov.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position:50%;
@@ -127,7 +127,6 @@ a:hover {
 .footer_text{
     font-size: 0.6em;
 }
-
 
 @media screen and (orientation:portrait) and (max-width:1200px){
     #bloc1{
@@ -182,7 +181,6 @@ a:hover {
     }
 }
 
-
 @media screen and (min-width:576px){
     .btn{
         font-size: 0.6em;
@@ -199,9 +197,16 @@ a:hover {
     .logo2{
         height: 2.5em;
     }
-    
+    p{
+        font-size: 0.7em;
+    }
+
     .footer_text{
         font-size: 0.7em;
+    }
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 100%;
     }
 }
 
@@ -218,12 +223,20 @@ a:hover {
     .title_side{
         font-size: 0.9em;
     }
+    p{
+        font-size: 0.7em;
+    }
+
     .logo2{
         height: 3em;
     }
     
     .footer_text{
         font-size: 0.8em;
+    }
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 100%;
     }
 }
 
@@ -236,6 +249,9 @@ a:hover {
     }
     .title_side{
         font-size: 1.0em;
+    }
+    p{
+        font-size: 0.8em;
     }
     .logo2{
         height: 3.5em;
@@ -256,12 +272,20 @@ a:hover {
     .title_side{
         font-size: 1.1em;
     }
+    p{
+        font-size: 0.9em;
+    }
     .logo2{
         height: 4em;
     }
     
     .footer_text{
         font-size: 0.8em;
+    }
+
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 50%;
     }
 }
 
@@ -270,6 +294,9 @@ a:hover {
         font-size: 1.1em ;
     }
     .text_side{
+        font-size: 1em;
+    }
+    p{
         font-size: 1em;
     }
     .title_side{
