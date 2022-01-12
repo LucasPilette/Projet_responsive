@@ -11,7 +11,17 @@ body {
     background: #000;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.55);
+    border-color: #F78B5A;
+}
+#logoNav {
+    width: 15%;
+}
 .side {
     height: 100%;
 }

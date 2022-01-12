@@ -84,7 +84,17 @@ li {
     background-position:50%;
     min-height: 500px;
 }
-
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.55);
+    border-color: #F78B5A;
+}
+#logoNav {
+    width: 15%;
+}
 #bloc2 {
     background: #EEA383;
     padding: 2.5em 1em 1.5em 1em;

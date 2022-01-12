@@ -89,6 +89,17 @@ li {
 .navbar {
     margin-bottom: 0.5em;
 }
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.55);
+    border-color: #F78B5A;
+}
+#logoNav {
+    width: 15%;
+}
 
 #bloc1 {
     padding-right: 0;
