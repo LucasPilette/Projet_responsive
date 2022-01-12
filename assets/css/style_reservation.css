@@ -155,6 +155,11 @@ a:hover{
     #bloc2{
         margin-top: 85px;
     }
+    .social-icons{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2em;
+    }
     #footer{
         border-radius: 0 0 10px 10px;
     }
@@ -407,7 +412,6 @@ a:hover{
 /* lOGO RESEAUX SOCIAUX*/
 
 .social-icons{
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 10vh;
